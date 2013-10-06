@@ -1,0 +1,8 @@
+This unit was made by snafusmith.
+
+To use the M3A1 Halftrack, copy the folder of the skin you want to use into your mod, but make sure you add the 'M3A1HTSREF.dds' file as well! 
+
+Only one copy of 'M3A1HTSREF.dds' and 'fx_triggers_M3A1HT.ftsxml' files are needed for your mod.
+
+ENJOY!
+-Smitty
