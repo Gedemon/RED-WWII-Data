@@ -5,7 +5,7 @@
     <ProjectGuid>{2c51d622-7a59-4321-971a-ee53daf33914}</ProjectGuid>
     <Name>R.E.D. WWII Data Files</Name>
     <Guid>544d699d-1c84-4606-b22f-a1b009af9471</Guid>
-    <ModVersion>5</ModVersion>
+    <ModVersion>6</ModVersion>
     <Stability>Stable</Stability>
     <Teaser>R.E.D. WWII Data Files</Teaser>
     <Description>R.E.D. WWII Data Files</Description>
@@ -36,11 +36,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Art\" />
+    <Folder Include="Art\FontIcons\" />
     <Folder Include="Art\Icons\" />
+    <Folder Include="Art\Improvements\Bunker\" />
     <Folder Include="Art\Improvements\TradingPosts\" />
+    <Folder Include="Art\Leaderscene\" />
+    <Folder Include="Art\Leaderscene\3DHitler\" />
     <Folder Include="Art\LoadingScreens" />
     <Folder Include="Art\Backgrounds" />
     <Folder Include="Art\Improvements" />
+    <Folder Include="Art\Maps\" />
     <Folder Include="Art\Promotions" />
     <Folder Include="Art\Scenes" />
     <Folder Include="Art\Victories\" />
@@ -170,19 +175,139 @@
     <Folder Include="Units\_Paratroopers\fxsxml\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Art\Backgrounds\1936MainMenu.dds">
+    <Content Include="Art\Backgrounds\Background_1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Backgrounds\1942background.dds">
+    <Content Include="Art\Backgrounds\Background_10.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Backgrounds\Background_38.dds">
+    <Content Include="Art\Backgrounds\Background_11.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Backgrounds\Earth_1936.dds">
+    <Content Include="Art\Backgrounds\Background_12.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_13.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_14.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_15.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_16.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_17.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_18.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_19.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_20.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_21.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_22.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_23.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_24.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_25.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_26.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_27.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_28.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_29.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_30.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_31.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_33.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_34.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_4.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_5.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_6.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_7.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_8.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Backgrounds\Background_9.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -190,11 +315,15 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Backgrounds\Stalingrad.dds">
+    <Content Include="Art\Backgrounds\_background.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Backgrounds\_background.dds">
+    <Content Include="Art\FontIcons\RED_WWII_FontIcons.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\FontIcons\RED_WWII_FontIcons.ggxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -299,6 +428,42 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\Icons\WW2UnitsFlagsAtlas32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\Bunker.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\Bunker_B.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\Bunker_B.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\Bunker_HB.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\Bunker_HB.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\Bunker_PL.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\Bunker_PL.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\crater.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Improvements\Bunker\destroyed_city.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -582,6 +747,86 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_BG.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Clothes_DIFF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Clothes_NORM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Clothes_SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Hair_DIFF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Hair_NORM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Hair_SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Medals_DIFF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Medals_NORM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Medals_OPAC.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Medals_SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Scene.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_scene.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_scene.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Skin_BLUR.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Skin_DIFF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Skin_NORM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\3DHitler\Hitler_Skin_SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Art\LoadingScreens\dom_america.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -622,6 +867,38 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Art\Maps\mapFrance.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\mapGermany.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\mapItaly.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\mapJapan.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\mapUnitedKingdom.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\mapUSA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\mapUSSR.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\RedWorldMap.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Art\Promotions\NewPromos16.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -639,10 +916,6 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\Promotions\NewPromos64.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\_RED_WWII_Logo.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
